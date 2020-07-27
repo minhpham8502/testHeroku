@@ -26,6 +26,6 @@ app.get('/jquery',(req,res)=>{
 })
 //khai bao khoi tao bien process.env.PORT
 const PORT =process.env.PORT || 5000;
-
+app.listen(PORT)
 var sever = app.listen(5000);
 
